@@ -29,10 +29,10 @@ La plateforme devra permettre que :
 - [] Un MPD
 
 - [] Un dictionnaire de données
-- [] Des règles de gestion
-- [] Un diagramme de cas d'utilisation
+- [x] Des règles de gestion
+- [x] Un diagramme de cas d'utilisation
 - [] Un diagramme de classe
-- [] Un diagramme de Séquence
+- [x] Un diagramme de Séquence
 
 ## Règle de gestion
 
@@ -77,6 +77,14 @@ La plateforme devra permettre que :
 
 - Proposent plusieurs vols.
 - Chaque compagnie propose s'est propre vol.
+
+### User Case :
+
+[![UML/Use_case.png](/UML/Use_case.png)](/UML/Use_case.png)
+
+### Diagramme de Séquence :
+
+[![UML/Diagramme_sequence.png](UML/Diagramme_sequence.png)](UML/Diagramme_sequence.png)
 
 ## Contributeur
 
