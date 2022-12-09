@@ -80,7 +80,7 @@ La plateforme devra permettre que :
 
 ### User Case :
 
-[![UML/Use_case.png](/UML/Use_case.png)](/UML/Use_case.png)
+[![UML/use_case.png](/UML/use_case.png)](/UML/use_case.png)
 
 ### Diagramme de Séquence :
 
