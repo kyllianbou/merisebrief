@@ -126,7 +126,7 @@ La plateforme devra permettre que :
 
 </details>
 
-### Diagramme MERISE
+### Diagramme MERISE :
 
 <details>
 <summary>MCD</summary>
