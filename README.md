@@ -11,7 +11,7 @@ Concevoir à l'aide du standard UML la modélisation de la plateforme.
 La plateforme devra permettre que :
 
 - Un vol est ouvert à la réservation et refermé sur ordre de la compagnie.
-- Un vol peut être annulé par la compagnie
+- Un vol peut être annulé par la compagnie.
 - Un client peut réserver un ou plusieurs vols, pour des passagers différents.
 - Une réservation concerne un seul vol et un seul passager.
 - Une réservation peut être annulée ou confirmée.
