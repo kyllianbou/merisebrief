@@ -24,9 +24,9 @@ La plateforme devra permettre que :
 
 ## Livrables
 
-- [] Un MCD
-- [] Un MLD
-- [] Un MPD
+- [x] Un MCD
+- [x] Un MLD
+- [x] Un MPD
 
 - [x] Un dictionnaire de données
 - [x] Des règles de gestion
@@ -123,6 +123,29 @@ La plateforme devra permettre que :
 <summary>Diagramme de classe</summary>
 
 [![UML/Diagramme_de_classe.png](UML/Diagramme_de_classe.PNG)](UML/Diagramme_de_classe.PNG)
+
+</details>
+
+### Diagramme MERISE
+
+<details>
+<summary>MCD</summary>
+
+[![MERISE/MCD.PNG](/MERISE/MCD.PNG)](/MERISE/MCD.PNG)
+
+</details>
+
+<details>
+<summary>MLD</summary>
+
+[![MERISE/MLD.PNG](/MERISE/MLD.PNG)](/MERISE/MLD.PNG)
+
+</details>
+
+<details>
+<summary>MPD</summary>
+
+[![MERISE/MPD.PNG](/MERISE/MPD.PNG)](/MERISE/MPD.PNG)
 
 </details>
 
