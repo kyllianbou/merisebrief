@@ -28,10 +28,10 @@ La plateforme devra permettre que :
 - [] Un MLD
 - [] Un MPD
 
-- [] Un dictionnaire de données
+- [x] Un dictionnaire de données
 - [x] Des règles de gestion
 - [x] Un diagramme de cas d'utilisation
-- [] Un diagramme de classe
+- [x] Un diagramme de classe
 - [x] Un diagramme de Séquence
 
 ## Règle de gestion
@@ -44,6 +44,7 @@ La plateforme devra permettre que :
 - Contient un aéroport de départ, une date et une heure.
 - Contient un aéroport d'arrivée, une date et une heure.
 - Est un trajet d'un aéroport à un autre.
+- Contient un numéro de vol.
 
 #### Client :
 
@@ -53,12 +54,13 @@ La plateforme devra permettre que :
 #### Aéroport :
 
 - Peut desservir une ou plusieurs villes.
-- Appartient à une ville.
+- Se situe dans une ville.
 
 #### Ville :
 
 - Peut avoir plusieurs aéroports.
 - Se trouve dans un pays.
+- Contient un nom.
 
 #### Escale :
 
@@ -69,7 +71,6 @@ La plateforme devra permettre que :
 
 #### Réservation :
 
-- Une compagnie peut annulée un vol.
 - Une compagnie peut confirmer la réservation.
 - Un client peut annulé une réservation.
 
@@ -77,14 +78,53 @@ La plateforme devra permettre que :
 
 - Proposent plusieurs vols.
 - Chaque compagnie propose s'est propre vol.
+- Contient un nom.
 
-### User Case :
+## Dictionnaire de données
+
+| Nom               | Signification                       | Type |
+| :---------------- | :---------------------------------- | :--- |
+| numero_tel        | Numéro de téléphone du client       | AN   |
+| info_paiement     | Information de paiement du client   | AN   |
+| num_revervation   | Numéro de réservation               | AN   |
+| client_email      | Adresse email du client             | AN   |
+| nom_passager      | Nom du passager                     | A    |
+| prenom_passager   | Prénom du passager                  | A    |
+| date_de_naissance | Date de naissance du passager       | Date |
+| num_passeport     | Numéro de passeport du passager     | AN   |
+| num_vol           | Numéro de vol                       | AN   |
+| date_reservation  | Date de réservation                 | Date |
+| nom               | Nom de compagnie                    | AN   |
+| adresse           | Adresse de compagnie                | AN   |
+| numero_tel        | Numéro de téléphone de la compagnie | AN   |
+| date_arriver      | Date d'arrivée du vol               | Date |
+| date_depart       | Date de départ du vol               | Date |
+| nom_ville         | Nom de la ville                     | A    |
+| pays              | Nom du pays                         | A    |
+| nom_aeroport      | Nom de l'aéroport                   | A    |
+
+### Diagramme UML :
+
+<details>
+<summary>Use case</summary>
 
 [![UML/use_case.png](/UML/use_case.png)](/UML/use_case.png)
 
-### Diagramme de Séquence :
+</details>
+
+<details>
+<summary>Diagramme de Séquence</summary>
 
 [![UML/Diagramme_sequence.png](UML/Diagramme_sequence.png)](UML/Diagramme_sequence.png)
+
+</details>
+
+<details>
+<summary>Diagramme de classe</summary>
+
+[![UML/Diagramme_de_classe.png](UML/Diagramme_de_classe.PNG)](UML/Diagramme_de_classe.PNG)
+
+</details>
 
 ## Contributeur
 
